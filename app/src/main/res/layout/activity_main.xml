@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/infoucsal">
+
+    <!-- Imagem de plano de fundo -->
+
+    <!-- Botão Eventos -->
+
+    <!-- Botão Sair -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/event_image" />
+
+    <Button
+        android:id="@+id/btnEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="264dp"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="10dp"
+        android:text="Eventos"
+        app:iconTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEvents"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-51dp"
+        android:layout_marginEnd="31dp"
+        android:insetTop="0dp"
+        android:insetBottom="10dp"
+        android:text="Sair" />
+
+</RelativeLayout>
